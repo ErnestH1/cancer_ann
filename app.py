@@ -2,10 +2,10 @@ import streamlit as st
 import numpy as np 
 import pandas as pd
 from tensorflow.keras.models import load_model
-from sklearn.preprocessing import StardardScaler
+from sklearn.preprocessing import StandardScaler
 
 model=load_model('breast_cancer_model.h5')
-scaler=StardardScaler()
+scaler=StandardScaler()
 
 st.title('Breast Cancer Prediction')
 
